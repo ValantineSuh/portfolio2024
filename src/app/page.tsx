@@ -1,20 +1,22 @@
-import Image from 'next/image'
 import NavBar from './components/NavBar'
 import React  from 'react'
 import HomePage from './components/HomePage'
 import Socials from './components/Socials'
 import About from './components/About'
+import Portfolio from './components/Portfolio'
 
 
 export default function Home() {
   return (
-<body className='font-signature text-4xl font-bold' >
+<div >
 
   <NavBar />
   <HomePage />
-  <Socials />
   <About />
-</body>
+  <Portfolio />
+
+  <Socials />
+</div>
 
     )
 }

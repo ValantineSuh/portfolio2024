@@ -10,12 +10,12 @@ const HomePage = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full '>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white' >
-                I am a full  Developer
+                I am a fullStack  Developer
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
                 I have 5 years of experiece building, designing and maintaining software appllications
                 Currently, I work on web and mobile applications using the technologies
-                NextJs (React JS), Tailwind css, TypeScript, Flutter, GraphQL, firebase and mongoDB
+                NextJs (React JS), Tailwind css, TypeScript, Flutter(Dart), React Native, GraphQL, firebase and mongoDB
                 </p>
                 <div>
                     <button className='text-white w-fit px-6 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500
