@@ -22,7 +22,7 @@ const HomePage = () => {
                     to-blue-500 cursor-pointer group'> {/**the group attribute is to make sure you group same props to another tag */}
                         Portfolio
                         <span className='group-hover:rotate-90 duration-300'> 
-                            <MdOutlineKeyboardArrowRight />
+                            <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
                         </span>
                     </button>
                 </div>
