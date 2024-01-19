@@ -15,7 +15,7 @@ const Socials = () => {
                 <FaLinkedin size={30} />
                 </>
             ),
-            href: '#',
+            href: 'https://www.linkedin.com/in/esum-brandon-1ba3401b1/',
             style: 'rounded-tr-md'
         },
         {
@@ -26,7 +26,7 @@ const Socials = () => {
                 <FaGithub size={30} />
                 </>
             ),
-            href: '#',
+            href: 'https://github.com/spyze002',
         
         },
         {
