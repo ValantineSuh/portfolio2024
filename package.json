@@ -1,5 +1,5 @@
 {
-  
+  "homepage": "http://spyze002.github.io/portfolio2024",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeply": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "next": "14.0.4",
