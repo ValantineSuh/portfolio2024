@@ -12,9 +12,9 @@ const ContactMe = () => {
         <div className='flex justify-center items-center'>
           <form action="https://getform.io/f/940c05ab-aa40-4d5c-be53-929129057916" method='POST' className=' flex flex-col w-full md:w-1/2'>
             <input type="text" name='name' placeholder='Enter Your Name' className='p-2 bg-transparent border-2 rounded-md
-             text-white focus:outline-none' />
+             text-white focus:outline-none' required />
             <input type="email" name='email' placeholder='Enter Your email' className='my-4 p-2 bg-transparent border-2 rounded-md
-             text-white focus:outline-none' />
+             text-white focus:outline-none' required />
              <textarea placeholder='Enter your message' name="message" rows={10} className='p-2 bg-transparent border-2 rounded-md
              text-white focus:outline-none '></textarea>
 

@@ -10,14 +10,17 @@ const About = () => {
       </p>
     </div>
     <p className='text-xl mt-20'>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit reiciendis fugiat 
-        sapiente maxime voluptatem quo consectetur, aspernatur, beatae itaque doloremque repellat! Eum dignissimos nihil laudantium odio repellat similique ab doloribus dicta voluptatem vitae 
-        dolore necessitatibus, labore iusto amet, perspiciatis nostrum dolores iure alias minus aperiam aut quae nam! Quis, illo.
+   Hey there, it's Esum Brandon.O😎, I am an experienced Software engineer with a degree in computer software software engineering at the University of Buea, Cameroon.
+  I've contributed to lots of projects using the named frameworks and also acu
+
+
+
       </p>
       <br />
       <p className='text-xl'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium provident minus eaque modi excepturi, repellendus labore doloribus optio in blanditiis quia beatae, facere illo, facilis eveniet quo dignissimos? Nihil dolor corporis cupiditate amet quasi voluptates nam et
-         voluptatibus! Enim repudiandae dignissimos id veniam ipsam illo eveniet eligendi repellat asperiores.
+      Skilled software engineer with 4 years of experience in the industry. Highly adept at handling various responsibilities by
+ prioritizing my tasks, establishing clear deadlines and finding creative solutions to eliminate obstacles. My experience has
+  equipped me with the necessary tools to success this position:
       </p>
   </div>
  </div>
