@@ -16,11 +16,8 @@ export default function Home() {
   <HomePage />
   <About />
   <Portfolio />
-    {/**Experience section hard coded and i didn't wanna create any component for it, will do so soon */}
-    {/**Changed my mind */}
-
-    <Experience />
-    <ContactMe />
+  <Experience />
+  <ContactMe />
   <Socials />
 </div>
 

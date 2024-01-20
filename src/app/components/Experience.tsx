@@ -65,8 +65,8 @@ const Experience = () => {
      
     ]
   return (
-    <div className='bg-gradient-to-b from-gray-800 to-black w-full md:h-screen'>
-        <div className='max-w-screen-lg ms-auto p-4 flex flex-col justify-center w-full h-full text-white'>
+    <div className='bg-gradient-to-b from-gray-800 to-black w-full md:h-screen flex justify-center items-center '>
+        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500 p-2'> Experience</p>
                 <p className='py-6'>Programming langauges and framewords I've worked with</p>
