@@ -46,7 +46,7 @@ const Experience = () => {
             id: 6,
             image: typeScript,
             title: 'TypeScript',
-            style: 'shadow-orange-500'
+            style: 'shadow-orange-200'
         },
         {
             id: 7,

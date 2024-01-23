@@ -1,11 +1,17 @@
 'use client';
-import React, { useState }  from 'react'
+import React, { useState, useRef }  from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import Link from 'react-scroll/'
+import {Link} from 'react-scroll/'
 
 function NavBar() {
 
+    // constructor(props) {
+    //     super(props);
+    //     this.scrollToTop = this.scrollToTop.bind(this);
+    //   }
+
     const [nav, setNav] = useState(false);
+    const navRef  = useRef<HTMLDivElement| null>(null);
     const links = [
         {
             id: 1,
@@ -22,7 +28,8 @@ function NavBar() {
         },
         {
             id: 4,
-            link: 'Expirience'
+            link: 'Expirience',
+
         },
         {
             id: 5,
@@ -30,21 +37,21 @@ function NavBar() {
         },
     ]
   return (
-    <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4'>
+    <div   className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4'>
     <div>
         <h1 className='font-signature text-5xl ml-2'>
             ESUM
         </h1>
     </div>
 
-    <ul className='hidden md:flex'>
+    <ul className='hidden md:flex' >
         {
-            links.map(({ id, link })=>(
-                <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 
-                hover:scale-105 duration-200'>
-            {link}
-                    </li>   
-            ))}
+            links.map(({ id, link,  })=>(
+                <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500  hover:scale-105 duration-200'>
+              <Link to={link} smooth duration={500}>  {link} </Link>      
+                       </li>   
+            ))
+        }
         </ul>
 
         {/** mobile view section */}
@@ -57,7 +64,7 @@ function NavBar() {
         {
             links.map(({ id, link })=>(
                 <li key={id} className=' cursor-pointer capitalize font-medium text-gray-500 py-6 text-4xl'>
-                    {link}
+                    <Link onClick={()=> setNav(!nav)} to={link} smooth duration={500}>  {link} </Link>  
                 </li>
                  ))}
         </ul> }
