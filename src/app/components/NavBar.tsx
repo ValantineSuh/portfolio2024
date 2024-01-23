@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useRef }  from 'react'
+import React, { useState }  from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {Link} from 'react-scroll/'
 
@@ -11,29 +11,28 @@ function NavBar() {
     //   }
 
     const [nav, setNav] = useState(false);
-    const navRef  = useRef<HTMLDivElement| null>(null);
     const links = [
         {
             id: 1,
-            link: 'Home',
+            link: 'home',
 
         },
         {
             id: 2,
-            link: 'About'
+            link: 'about'
         },
         {
             id: 3,
-            link: 'Portfolio'
+            link: 'portfolio'
         },
         {
             id: 4,
-            link: 'Expirience',
+            link: 'expirience',
 
         },
         {
             id: 5,
-            link: 'Contact'
+            link: 'contact'
         },
     ]
   return (
@@ -60,7 +59,8 @@ function NavBar() {
         </div>
 
         {/** Transition between mobile and desktop view icon */}
-             {nav &&   <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen'>
+             {nav &&   <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full 
+             h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500'>
         {
             links.map(({ id, link })=>(
                 <li key={id} className=' cursor-pointer capitalize font-medium text-gray-500 py-6 text-4xl'>
