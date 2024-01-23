@@ -2,6 +2,12 @@
 import React from 'react'
 import Image from 'next/image'
 import imageImg from '../assets/sh2.jpg'
+import weatherapp from '../assets/projectAssets/weatherapp.jpeg'
+import shoppingapp from '../assets/projectAssets/shoppingapp.jpg'
+import  currencyapp from '../assets/projectAssets/currencyapp.png'
+import  coffeshop from '../assets/projectAssets/coffeeshop.webp'
+import  ecommerce from '../assets/projectAssets/ecommerce.jpg'
+import  dataAnalysis from '../assets/projectAssets/data-analysis.jpg'
 
 
 const Portfolio = () => {
@@ -9,30 +15,34 @@ const Portfolio = () => {
     const projects =[
         {
             id: 1,
-            scr: imageImg,
-            url: 'https://github.com/spyze002/shopping-app-mobile'
+            scr: weatherapp,
+            url: 'https://github.com/spyze002/Weather-Mobile-Application',
+           
         },
         {
             id: 2,
-            scr: imageImg,
-            url: 'https://github.com/spyze002/Weather-Mobile-Application'
+            scr: shoppingapp,
+            url: 'https://github.com/spyze002/shopping-app-mobile'
         },
         {
             id: 3,
-            scr: imageImg,
+            scr: currencyapp,
             url: 'https://github.com/spyze002/currency-converter'
         },
         {
             id: 4,
-            scr: imageImg
+            scr: coffeshop,
+            url: 'https://github.com/spyze002/Coffeshop-'
         },
         {
             id: 5,
-            scr: imageImg
+            scr: ecommerce,
+            url: 'https://github.com/spyze002/e-commerce-project'
         },
         {
             id: 6,
-            scr: imageImg
+            scr: dataAnalysis,
+            url: 'https://github.com/spyze002/Data-analysis-with-python'
         },
         
     ]
@@ -48,7 +58,7 @@ const Portfolio = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 text-center'>
             {projects.map(({id, scr, url}) =>(
                  <div key={id} className=' shadow-md shadow-gray-600 rounded-lg' >
-                 <Image src={scr} alt = '' width={200} height={200} className='rounded-md duration-200 hover:scale-105' />
+                 <Image src={scr} alt = '' width={200} height={100} className='rounded-md duration-200 hover:scale-105 m-auto' />
                  <div className='items-center flex justify-center'>
                      <button  className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
                      <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'> <a href={url} target='blank'>Code</a> </button>

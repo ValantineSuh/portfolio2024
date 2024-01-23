@@ -2,6 +2,7 @@ import React from 'react';
 import myImages from '../assets/mainPic-removebg.png';
 import Image from 'next/image';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import { Link } from 'react-scroll';
 
 const HomePage = () => {
   return (
