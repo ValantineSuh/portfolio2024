@@ -27,7 +27,7 @@ function NavBar() {
         },
         {
             id: 4,
-            link: 'expirience',
+            link: 'experience',
 
         },
         {
@@ -64,7 +64,7 @@ function NavBar() {
         {
             links.map(({ id, link })=>(
                 <li key={id} className=' cursor-pointer capitalize font-medium text-gray-500 py-6 text-4xl'>
-                    <Link onClick={()=> setNav(!nav)} to={link} smooth duration={500}>  {link} </Link>  
+                <Link onClick={()=> setNav(!nav)} to={link} smooth duration={500}>  {link} </Link>  
                 </li>
                  ))}
         </ul> }
