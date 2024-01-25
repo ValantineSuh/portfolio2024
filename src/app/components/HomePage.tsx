@@ -10,7 +10,7 @@ const HomePage = () => {
         
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full pr-20 '>
-                <h2 className='text-4xl sm:text-3xl mt-10 font-bold text-white md:text-7xl md:mt-10' >
+                <h2 className='text-4xl sm:text-3xl mt-10 font-bold text-white md:text-7xl md:mt-auto' >
                 I am a fullStack Developer
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
