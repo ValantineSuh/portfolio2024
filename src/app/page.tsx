@@ -6,6 +6,7 @@ import About from './components/About'
 import Portfolio from './components/Portfolio'
 import Experience from './components/Experience'
 import ContactMe from './components/ContactMe'
+import MobileSocial from './components/MobileSocial'
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
   <Experience />
   <ContactMe />
   <Socials />
+  <MobileSocial />
 </div>
 
     )

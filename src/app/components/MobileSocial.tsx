@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
-const Socials = () => {
+const MobileSocial = () => {
 
     const socialLinksIcons = [
         {
@@ -54,7 +54,7 @@ const Socials = () => {
         }
     ]
   return (
-    <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
+    <div className='hidden sm:flex '>
         <ul>
             {socialLinksIcons.map(({id, child, href, style, download}) =>(
       <li key={id} className={ "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] bg-gray-500 hover:rounded-md duration-300 hover:ml-[-10px]" + " " + style }>
@@ -77,4 +77,4 @@ const Socials = () => {
   )
 }
 
-export default Socials
+export default MobileSocial
