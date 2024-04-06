@@ -82,8 +82,8 @@ const Experience = () => {
     <div data-name='experience' id='experience' className='bg-gradient-to-b from-gray-800 to-black w-full md:h-screen flex justify-center items-center '>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white'>
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500 p-2'> Experience</p>
-                <p className='py-6'>Programming langauges and framewords I've worked with</p>
+                <p className='text-4xl font-bold inline border-b-4 border-gray-500 p-2 opacity-55'> Experience</p>
+                <p className='py-6 opacity-55'>Programming langauges and framewords I've worked with</p>
             </div>
 
             <div className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-12 sm:p-0'>
