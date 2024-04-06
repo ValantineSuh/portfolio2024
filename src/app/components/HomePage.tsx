@@ -1,5 +1,5 @@
 import React from 'react';
-import myImages from '../assets/mainPic-removebg.png';
+import myImages from '../assets/mainesum.jpg';
 import Image from 'next/image';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { Link } from 'react-scroll';
@@ -28,7 +28,7 @@ const HomePage = () => {
                     </button>
                 </div>
             </div>
-            <Image src={myImages} alt='meh' className='rounded-2xl mx-auto w-2/3 md:w-2/4'/>
+            <Image src={myImages} alt='meh' className='rounded-2xl mx-auto '/>
         </div>
        
     </div>
