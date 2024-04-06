@@ -39,7 +39,7 @@ function NavBar() {
     <div   className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4'>
     <div>
         <h1 className='font-signature text-5xl ml-2'>
-            ESUM
+            Esum Brandon
         </h1>
     </div>
 

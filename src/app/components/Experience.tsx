@@ -8,6 +8,8 @@ import reactNative from  '../assets/LaguageAssets/ReactNative.png';
 import typeScript from  '../assets/LaguageAssets/TypescriptLogo.png';
 import graphQL from  '../assets/LaguageAssets/GraphQL.png';
 import git from  '../assets/LaguageAssets/git.jpg';
+import Java from '../assets/LaguageAssets/Java.png';
+import Spring from '../assets/LaguageAssets/Spring.png';
 
 const Experience = () => {
 
@@ -61,6 +63,18 @@ const Experience = () => {
             title: 'Git',
             style: 'shadow-red-400'
         },
+        {
+            id: 9,
+            image: Java,
+            title: 'Java',
+            style: 'shadow-red-700'
+        },
+        {
+            id: 10,
+            image: Spring,
+            title: 'Spring Boot',
+            style: 'shadow-green-400'
+        }
        
      
     ]

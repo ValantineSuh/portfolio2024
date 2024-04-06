@@ -22,8 +22,12 @@ const About = () => {
  prioritizing my tasks, establishing clear deadlines and finding creative solutions to eliminate obstacles. My experience has
   equipped me with the necessary tools to success this position: <br />
       * Mobile App dev. <br/>
-      * Web App Dev. <br />
+      * Web App dev. <br />
       * Desktop App dev <br />
+      * API dev <br />
+      * Micro-Services <br />
+      * DevOps <br />
+
       </p>
   </div>
  </div>
